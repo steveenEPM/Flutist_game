@@ -1,0 +1,5 @@
+npx jest --clearCache && npm run test
+
+
+npm run dev -- --host 192.168.100.7
+

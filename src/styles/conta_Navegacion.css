@@ -1,0 +1,145 @@
+.navegacionPage {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-inline: 20px;
+    padding-block: 12px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #0F0A1E;
+    transition-duration: 1s;
+    z-index: 3;
+}
+
+.navegacionPage .sections {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.navegacionPage #section1 {
+    align-items: center;
+    gap: 14px;
+}
+
+.navegacionPage #section1 div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 6px;
+
+    background: hsla(333, 100%, 53%, 1);
+
+    background: linear-gradient(135deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+
+    background: -moz-linear-gradient(135deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+
+    background: -webkit-linear-gradient(135deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#FF0F7B", endColorstr="#F89B29", GradientType=1);
+}
+
+.navegacionPage #section1 h2 {
+    /* Graduación del color */
+    background: linear-gradient(to right, #FF0F7B, #F89B29);
+
+    /* Aplicar el degradado solo al texto */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    /* Hace que el color sólido desaparezca */
+}
+
+.navegacionPage #section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 20%;
+
+}
+
+.navegacionPage #section2 .navs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+
+    animation-duration: 1s;
+    gap: 12px;
+}
+
+.navegacionPage #section2 .navs:hover {
+    opacity: 0.5;
+}
+
+.navegacionPage #section2 .navs span {
+    font-family: "Audiowide", sans-serif;
+    font-size: 14px;
+}
+
+
+
+/**
+    Mobile
+*/
+.navegacionPage.mobile {
+    flex-direction: column;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    /* ancho total de la pantalla */
+    max-width: none;
+    /* elimina el límite */
+    padding-top: 30px;
+    background-color: #0F0A1E;
+    display: none;
+
+}
+
+.navegacionPage.mobile.active {
+    display: flex;
+}
+
+
+
+.navegacionPage.mobile #section2 {
+    margin-top:10px;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-left: 0px;
+    width: 90%;
+    gap: 10px;
+}
+
+
+.navegacionPage.mobile #section2 button {
+    
+    padding: 3%;
+    justify-content: flex-start;
+}
+
+#btn_press_nav.active {
+    transform: translateX(72vw);
+
+}
+
+
+#btn_press_nav {
+    position: fixed;
+    z-index: 2;
+    margin-left: 20px;
+    margin-top: 14px;
+    width: 50px;
+    height: 60px;
+    border-radius: 7px;
+    border-style: none;
+
+    transition-duration: 1s;
+    background: #382A50;
+
+}

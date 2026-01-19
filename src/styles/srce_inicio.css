@@ -1,0 +1,315 @@
+.homes.containers {
+    display: flex;
+    flex-direction: column;
+    padding-block: 10px;
+    padding-inline: 20px;
+    margin-block: 12px;
+}
+
+
+/**
+*
+*       ____ CONTENEDOR 1 ___
+*
+*/
+
+#container1.homes {
+    align-items: center;
+    padding-block: 20px;
+    padding-inline: 10px;
+    padding-top: 120px;
+
+}
+
+
+
+#container1.homes p {
+    padding-inline: 10%;
+    text-align: center;
+}
+
+
+
+/**
+*
+*       ____ CONTENEDOR 2 ___
+*
+*/
+#container2.homes {
+    justify-content: center;
+    gap: 30px;
+    flex-direction: row;
+}
+
+#container2.homes button {
+    width: 90px;
+    height: 36px;
+    background-color: black;
+}
+
+
+#container2.homes #item-0 {
+
+    background: hsla(225, 40%, 54%, 1);
+
+    background: linear-gradient(315deg, hsla(225, 40%, 54%, 1) 2%, hsla(284, 75%, 54%, 1) 90%);
+
+    background: -moz-linear-gradient(315deg, hsla(225, 40%, 54%, 1) 2%, hsla(284, 75%, 54%, 1) 90%);
+
+    background: -webkit-linear-gradient(315deg, hsla(225, 40%, 54%, 1) 2%, hsla(284, 75%, 54%, 1) 90%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#5C73B9", endColorstr="#B330E1", GradientType=1);
+}
+
+#container2.homes #item-1 {
+    background: hsla(33, 94%, 57%, 1);
+
+    background: linear-gradient(315deg, hsla(33, 94%, 57%, 1) 11%, hsla(333, 100%, 53%, 1) 70%);
+
+    background: -moz-linear-gradient(315deg, hsla(33, 94%, 57%, 1) 11%, hsla(333, 100%, 53%, 1) 70%);
+
+    background: -webkit-linear-gradient(315deg, hsla(33, 94%, 57%, 1) 11%, hsla(333, 100%, 53%, 1) 70%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#F89B29", endColorstr="#FF0F7B", GradientType=1);
+}
+
+
+#container2.homes #item-2 {
+    background: hsla(0, 100%, 67%, 1);
+
+    background: linear-gradient(315deg, hsla(0, 100%, 67%, 1) 11%, hsla(333, 100%, 53%, 1) 70%);
+
+    background: -moz-linear-gradient(315deg, hsla(0, 100%, 67%, 1) 11%, hsla(333, 100%, 53%, 1) 70%);
+
+    background: -webkit-linear-gradient(315deg, hsla(0, 100%, 67%, 1) 11%, hsla(333, 100%, 53%, 1) 70%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#FF5858", endColorstr="#FF0F7B", GradientType=1);
+}
+
+
+#container2.homes #item-3 {
+    background: hsla(211, 90%, 47%, 1);
+
+    background: linear-gradient(315deg, hsla(211, 90%, 47%, 1) 5%, hsla(190, 68%, 50%, 1) 60%);
+
+    background: -moz-linear-gradient(315deg, hsla(211, 90%, 47%, 1) 5%, hsla(190, 68%, 50%, 1) 60%);
+
+    background: -webkit-linear-gradient(315deg, hsla(211, 90%, 47%, 1) 5%, hsla(190, 68%, 50%, 1) 60%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#0C75E6", endColorstr="#28B8D5", GradientType=1);
+}
+
+#container2.homes #item-3 {
+    background: hsla(1, 92%, 47%, 1);
+
+    background: linear-gradient(135deg, hsla(1, 92%, 47%, 1) 30%, hsla(33, 100%, 53%, 1) 90%);
+
+    background: -moz-linear-gradient(135deg, hsla(1, 92%, 47%, 1) 30%, hsla(33, 100%, 53%, 1) 90%);
+
+    background: -webkit-linear-gradient(135deg, hsla(1, 92%, 47%, 1) 30%, hsla(33, 100%, 53%, 1) 90%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#E60B09", endColorstr="#FF930F", GradientType=1);
+}
+
+#container2.homes #item-4 {
+    background: hsla(222, 77%, 33%, 1);
+
+    background: linear-gradient(135deg, hsla(222, 77%, 33%, 1) 30%, hsla(236, 67%, 55%, 1) 90%);
+
+    background: -moz-linear-gradient(135deg, hsla(222, 77%, 33%, 1) 30%, hsla(236, 67%, 55%, 1) 90%);
+
+    background: -webkit-linear-gradient(135deg, hsla(222, 77%, 33%, 1) 30%, hsla(236, 67%, 55%, 1) 90%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#133A94", endColorstr="#3D47D9", GradientType=1);
+}
+
+#container2.homes #item-5 {
+    background: hsla(5, 64%, 45%, 1);
+
+    background: linear-gradient(135deg, hsla(5, 64%, 45%, 1) 30%, hsla(286, 43%, 46%, 1) 90%);
+
+    background: -moz-linear-gradient(135deg, hsla(5, 64%, 45%, 1) 30%, hsla(286, 43%, 46%, 1) 90%);
+
+    background: -webkit-linear-gradient(135deg, hsla(5, 64%, 45%, 1) 30%, hsla(286, 43%, 46%, 1) 90%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#BA3429", endColorstr="#9243A9", GradientType=1);
+}
+
+
+
+/**
+
+    _____ CONTENEDOR 3 _____
+
+*/
+
+#container3.homes {
+    flex-direction: row;
+    gap: 20px;
+}
+
+#container3.homes .Catalogs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: hidden;
+    padding-inline: 12px;
+    padding-bottom: 8px;
+}
+
+#container3.homes #catalog #section2 {}
+
+#container3.homes .h2_sections {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+
+}
+
+
+#container3.homes .icon_sections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    width: 50px;
+    height: 50px;
+}
+
+
+#container3.homes .icon_section1 {
+    background: hsla(0, 100%, 67%, 1);
+
+    background: linear-gradient(315deg, hsla(0, 100%, 67%, 1) 11%, hsla(333, 100%, 53%, 1) 70%);
+
+    background: -moz-linear-gradient(315deg, hsla(0, 100%, 67%, 1) 11%, hsla(333, 100%, 53%, 1) 70%);
+
+    background: -webkit-linear-gradient(315deg, hsla(0, 100%, 67%, 1) 11%, hsla(333, 100%, 53%, 1) 70%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#FF5858", endColorstr="#FF0F7B", GradientType=1);
+}
+
+
+#container3.homes .icon_section2 {
+    background: hsla(1, 92%, 47%, 1);
+
+    background: linear-gradient(135deg, hsla(1, 92%, 47%, 1) 30%, hsla(33, 100%, 53%, 1) 90%);
+
+    background: -moz-linear-gradient(135deg, hsla(1, 92%, 47%, 1) 30%, hsla(33, 100%, 53%, 1) 90%);
+
+    background: -webkit-linear-gradient(135deg, hsla(1, 92%, 47%, 1) 30%, hsla(33, 100%, 53%, 1) 90%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#E60B09", endColorstr="#FF930F", GradientType=1);
+}
+
+
+
+#container3.homes #catalog {
+    width: 70%;
+}
+
+
+#container3.homes #catalog #section1 {
+
+    display: flex;
+    flex-wrap: row;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#container3.homes #catalog #section2 {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+
+/*Movil*/
+@media (max-width:400px) {
+
+
+    .homes.containers {
+        width: 90vw;
+        justify-content: center;
+        margin-block: 20px;
+
+
+    }
+
+
+
+    /**
+            CONTAINER 1
+    */
+    #container1.homes p {
+        margin-top: 10px;
+        text-align: left;
+    }
+
+    #container1.homes h1 .animation-h1 {
+        font-size: 30px;
+    }
+
+
+    /**
+            CONTAINER 2
+    */
+    #container2.homes {
+        display: flex;
+        /* Asegúrate de que tenga esto */
+        gap: 15px;
+        /* Cambia 15px por el espacio que desees */
+        flex-wrap: wrap;
+        /* Para que bajen si no caben */
+
+
+    }
+
+    /* Opcional: para ocultar la barra de scroll si se ve fea */
+
+    #container2.homes .item-platforms {
+        font-size: 12px;
+        max-width: 50px;
+    }
+
+    #container3.homes {
+        flex-direction: column;
+        width: 85vw;
+    }
+
+    /**
+            CONTAINER 1
+    */
+
+    #container3.homes #catalog {
+        width: 90%;
+    }
+
+    #container3.homes .icon_sections {
+        transform: scale(0.7);
+    }
+
+    #container3.homes .h2_sections h2 {
+        font-size: 18px;
+    }
+
+    #container3.homes #catalog #section1 a {
+        font-size: 12px;
+    }
+
+    #container3.homes #catalog #section2 {
+        justify-content: center;
+    }
+    
+    #container3.homes .catalog_items {
+
+        width: 94%;
+
+    }
+
+}

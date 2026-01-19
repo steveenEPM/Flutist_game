@@ -1,0 +1,48 @@
+.popularity_items {
+    display: flex;
+    flex-direction: row;
+    gap:12px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.popularity_items .span_index {
+    color: #af53ec;
+    font-size: 30px;
+    font-weight: bold;
+    opacity: 0.4;
+    
+}
+
+
+.popularity_items>div {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+
+}
+
+.popularity_items>div img {
+    max-width: 40px;
+    border-radius: 4px;
+
+}
+
+.popularity_items>div>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.popularity_items>div>div h4 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.popularity_items>div>div>div span {
+    font-size: 12px;
+    opacity: 0.4;
+    font-weight: 600;
+
+}

@@ -1,0 +1,133 @@
+.explorer.contianers.root {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+
+/*
+        CONTAINER 1
+*/
+#container1.explorer {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 20px;
+    padding-block: 30px;
+
+    position: fixed;
+    background-color: #0F0A1E;
+    min-width: 14vw;
+    height: 90vh;
+    margin-top: 90px;
+}
+
+
+#container1.explorer h2 {
+
+    font-size: 24px;
+}
+
+
+#container1.explorer h3 {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #5B3CB5;
+}
+
+#container1.explorer div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#container1.explorer div button {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    text-transform: capitalize;
+    padding: 8px 16px;
+    font-size: 16px;
+    justify-content: left;
+    border-style: none;
+    background-color: #0F0A1E;
+}
+
+#container1.explorer div button:hover,
+#container1.explorer button.active {
+    border: 1px solid #422C83;
+    background-color: #1C1338;
+}
+
+#container1.explorer div:nth-child(1) {}
+
+/* Contenedor 2*/
+#container2.explorer {
+    position: relative;
+    margin-left: 20vw;
+    padding-inline: 20px;
+    min-height: 100vh;
+    min-width: 76vw;
+    margin-top: 100px;
+}
+
+#container2.explorer div:nth-child(1) {
+    margin-bottom: 20px;
+}
+
+#container2.explorer div:nth-child(1) h2 {
+    font-size: 26px;
+    margin-block: 10px;
+}
+
+#container2.explorer .catalog_game {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+#container2.explorer .btn_angle {
+    width: 36px;
+    height: 36px;
+    border-radius: 180px;
+    background-color: #1a1230;
+    opacity: 0.5;
+}
+
+#container2.explorer .btn_angle:hover,
+#container2.explorer .btn_angle:active {
+    opacity: 1;
+}
+
+
+/*
+    Mobile
+*/
+
+@media (max-width:400px) {
+
+    #container2.explorer {
+        height: 30vh;
+        padding-inline: 5px;
+        min-width: 0px;
+        margin-top: 50px;
+        margin-inline: 0px;
+        padding-inline: 20px;
+    }
+
+    #container2.explorer .catalog_items {
+        width: 140px;
+        height: 260px;
+    }
+
+    #container3.explorer .popularity_items>div img {
+        max-width: 100px;
+        height: 80px;
+    }
+
+}

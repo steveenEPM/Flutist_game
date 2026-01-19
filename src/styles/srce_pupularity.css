@@ -1,0 +1,204 @@
+.popularity.containers {
+    display: flex;
+    flex-direction: column;
+    padding-block: 20px;
+}
+
+
+/**
+
+    Container 1
+*/
+#container1.popularity {
+
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+#container1.popularity .icon_sections {
+    width: 80px;
+    height: 78px;
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: hsla(280, 84%, 41%, 1);
+
+    background: linear-gradient(135deg, hsla(280, 84%, 41%, 1) 40%, hsla(218, 97%, 56%, 1) 100%);
+
+    background: -moz-linear-gradient(135deg, hsla(280, 84%, 41%, 1) 40%, hsla(218, 97%, 56%, 1) 100%);
+
+    background: -webkit-linear-gradient(135deg, hsla(280, 84%, 41%, 1) 40%, hsla(218, 97%, 56%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#8711c1", endColorstr="#2472fc", GradientType=1);
+
+}
+
+
+#container1.popularity h2 {
+    font-size: 35px;
+
+}
+
+#container1.popularity p {
+    font-size: 20px;
+}
+
+
+
+/**
+
+    Container 2
+*/
+
+.popularity.containers .icon_sections {
+    width: 36px;
+    height: 36px;
+    border-radius: 30;
+}
+
+#container2.popularity {
+
+    gap: 30px;
+    padding-inline: 20px;
+
+}
+
+#container2.popularity .icon_sections {
+
+    width: 20px;
+    height: 20px;
+
+    background: hsla(1, 92%, 47%, 1);
+
+    background: linear-gradient(180deg, hsla(1, 92%, 47%, 1) 0%, hsla(52, 82%, 52%, 1) 100%);
+
+    background: -moz-linear-gradient(180deg, hsla(1, 92%, 47%, 1) 0%, hsla(52, 82%, 52%, 1) 100%);
+
+    background: -webkit-linear-gradient(180deg, hsla(1, 92%, 47%, 1) 0%, hsla(52, 82%, 52%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#e60b09", endColorstr="#e9d022", GradientType=1);
+}
+
+
+#container2.popularity .list_items1 {
+    /*Lista de items pouplares*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+#container2.popularity .list_items1 a {
+    margin-bottom: 10px;
+}
+
+
+#container2.popularity .btn_angle {
+    width: 36px;
+    height: 36px;
+    border-radius: 180px;
+    background-color: #1a1230;
+    opacity: 0.5;
+}
+
+#container2.popularity .btn_angle:hover,
+#container2.popularity .btn_angle:active {
+    opacity: 1;
+}
+
+/*
+    Container 3
+*/
+
+#container3.popularity {
+    padding-inline: 20px;
+}
+
+#container3.popularity .items_top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+#container3.popularity .icon_sections {
+    background: hsla(33, 100%, 53%, 1);
+
+    background: linear-gradient(180deg, hsla(33, 100%, 53%, 1) 0%, hsla(52, 82%, 52%, 1) 100%);
+
+    background: -moz-linear-gradient(180deg, hsla(33, 100%, 53%, 1) 0%, hsla(52, 82%, 52%, 1) 100%);
+
+    background: -webkit-linear-gradient(180deg, hsla(33, 100%, 53%, 1) 0%, hsla(52, 82%, 52%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#FF930F", endColorstr="#e9d022", GradientType=1);
+}
+
+#container3.popularity .popularity_items .items_top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+
+.popularity_items {}
+
+#container3.popularity .popularity_items {
+    align-items: center;
+    padding: 20px 12px;
+    max-width: 370px;
+
+
+}
+
+#container3.popularity .popularity_items .span_index {
+    font-size: 36px;
+
+
+}
+
+#container3.popularity .popularity_items>div img {
+    max-width: 160px;
+    height: 120px;
+
+
+}
+
+#container3.popularity .popularity_items>div>div h4 {
+    font-size: 20px;
+}
+
+#container3.popularity .popularity_items>div>div span {
+    font-size: 14px;
+}
+
+/*
+    Mobile
+*/
+
+
+@media (max-width:400px) {
+    #container1.popularity {
+        height: 30vh;
+        padding-inline: 20px;
+    }
+
+    #container2.popularity .catalog_items {
+        width: 150px;
+        height: 260px;
+    }
+
+    #container3.popularity .popularity_items>div img {
+        max-width: 100px;
+        height: 80px;
+    }
+
+
+}
