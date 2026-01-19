@@ -67,6 +67,7 @@ export default function ScreenExplorer() {
 
     const clearFilter = () => setFilter([])
 
+    if (loading) return <div>Cargando...</div>
 
 
 

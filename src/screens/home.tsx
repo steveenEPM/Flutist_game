@@ -24,7 +24,6 @@ const { getSorttGameByCriteri } = api
 
 export default function ScreenHomes() {
 
-    const [games, setGames] = useState<GiveawayGame[]>([])
     const [popularity, setPopularity] = useState<GiveawayGame[]>([])
     const [data, setData] = useState<GiveawayGame[]>([])
     const [loading, setLoading] = useState<boolean>(true)
@@ -38,9 +37,6 @@ export default function ScreenHomes() {
             .then(res => {
                 setPopularity(res.slice(-4))
                 return getSorttGameByCriteri("value")
-            })
-            .then(res => {
-                setGames(res.slice(-5))
             })
             .catch(err => console.log(err))
             .finally(() => {
