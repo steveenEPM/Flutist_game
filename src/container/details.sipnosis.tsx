@@ -6,7 +6,7 @@ type Props = {
 
 export default function Sipnosis({ data }: Props) {
 
-    let { image, description, thumbnail } = data
+    let { image, description } = data
 
     return (
         <>

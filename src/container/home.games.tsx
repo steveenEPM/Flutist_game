@@ -1,4 +1,4 @@
-import { Icon_FireFlame, Icon_ArrowTrend } from "../components/icons"
+import { Icon_FireFlame } from "../components/icons"
 import type { GiveawayGame } from "../types/gamerPower"
 import { useNavigate } from "react-router-dom"
 
@@ -70,7 +70,7 @@ export default function GamesCatalog({ stock, popularity }: Props) {
 
 export const CatalogItem = ({ data }: { data: GiveawayGame }) => {
 
-    let { image, title, platforms, users } = data
+    let { image, title, platforms } = data
 
 
 

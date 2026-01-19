@@ -9,7 +9,6 @@ import "../styles/srce_inicio.animation.css"
 import "../styles/srce_inicio.css"
 
 // Componentes
-import { Test1 } from "../components/test/home"
 import Platforms from "../container/home.platform"
 import NavegacionPage from "../container/Navegacion"
 import GamesCatalog from "../container/home.games"

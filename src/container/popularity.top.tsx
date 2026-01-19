@@ -1,4 +1,3 @@
-import { useState } from "react"
 
 import { Icon_Star } from "../components/icons"
 import type { GiveawayGame } from "../types/gamerPower"

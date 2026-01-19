@@ -8,14 +8,13 @@ import CatalogExplorer from "../container/explorer.catalog";
 import { useIsMobile } from "../hooks/useIsMobile";
 import type { GiveawayGame } from "../types/gamerPower";
 import api from "../Apis/gamerpower"
-import { platform } from "../container/home.platform";
 
 
 import "../styles/srce_explorer.css"
 import NavegacionPage from "../container/Navegacion";
 
 
-const { getSorttGameByCriteri, getGameplatform } = api
+const { getSorttGameByCriteri } = api
 
 
 export default function ScreenExplorer() {

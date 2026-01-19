@@ -1,12 +1,12 @@
 import axios from "axios"
 
-type Platform = "pc" | "steam" | "epic-games-store" | "ubisoft" | "gog" | "itchio" | "ps4" | "ps5" | "xbox-one" | "xbox-series-xs" | "switch" | "android" | "ios" | "vr" | "battlenet" | "origin" | "drm-free" | "xbox-360";
+// type Platform = "pc" | "steam" | "epic-games-store" | "ubisoft" | "gog" | "itchio" | "ps4" | "ps5" | "xbox-one" | "xbox-series-xs" | "switch" | "android" | "ios" | "vr" | "battlenet" | "origin" | "drm-free" | "xbox-360";
 
 
 
 class GamerPower {
 
-    private Host: string = "https://www.gamerpower.com/api"
+//    private Host: string = "https://www.gamerpower.com/api"
 
     constructor() { }
 
