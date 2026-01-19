@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/api-gamer/(.*)", "destination": "https://www.gamerpower.com/api/$1" }
+  ]
+}
