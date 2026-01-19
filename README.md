@@ -7,7 +7,7 @@
 <h2>🛠️ Stack Tecnológico
 [!TIP]</h2>
 <ul>
-<li>Frontend: HTML5, CSS3 (Custom Properties), JavaScript (ES6+).</li>
+<li>Frontend: HTML5, CSS3 (Custom Properties), JavaScript (ES6+),Typescript.</li>
 <li>Framework sugerido: (React).
 Iconografía: Iconos personalizados con efectos de degradado.</li>
 </ul>
